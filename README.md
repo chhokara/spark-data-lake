@@ -10,5 +10,9 @@ source: Udacity Data Lake Project Introduction
 # Schema Design:
 The schema design being used is the STAR schema with 1 fact table: songplays and 4 dimension tables: artists, songs, users, and time.
 
+![Schema Image](./star.png "Schema Image")
+
 # ETL Pipeline:
 The python script etl.py extracts data from JSON meta data on songs and JSON logs on user events. The script then processes this data into dataframes using pyspark which represent fact and dimension tables, and finally writes the tables to parquet files which are then loaded to an s3 bucket.
+
+![ETL Image](./etl.png "ETL Image")
