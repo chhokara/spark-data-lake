@@ -23,4 +23,4 @@ The python script etl.py extracts data from JSON meta data on songs and JSON log
 ![ETL Image](./etl-graph.png "ETL Image")
 
 # Potential Improvements:
-The data on user events can be processed in real-time using a technology such as Apache Kafka which is distributed, scaleable, and fault tolerant.
+The data on user events can be processed in real-time using a technology such as Apache Kafka which is distributed, scaleable, and fault tolerant. This would also allow the analytics team to gain insights on their users in real-time.
