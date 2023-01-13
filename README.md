@@ -21,3 +21,6 @@ The schema design being used is the STAR schema with 1 fact table: songplays and
 The python script etl.py extracts data from JSON meta data on songs and JSON logs on user events. The script then processes this data into dataframes using pyspark which represent fact and dimension tables, and finally writes the tables to parquet files which are then loaded to an s3 bucket.
 
 ![ETL Image](./etl-graph.png "ETL Image")
+
+# Potential Improvements:
+The data on user events can be processed in real-time using a technology such as Apache Kafka which is distributed, scaleable, and fault tolerant.
