@@ -10,6 +10,7 @@ source: Udacity Data Lake Project Introduction
 # Technologies:
 - Python
 - Apache Spark
+- Apache Parquet
 - Amazon S3
 
 # Schema Design:
