@@ -5,8 +5,6 @@ As their data engineer, you are tasked with building an ETL pipeline that extrac
 
 You'll be able to test your database and ETL pipeline by running queries given to you by the analytics team from Sparkify and compare your results with their expected results.
 
-source: Udacity Data Lake Project Introduction
-
 # Technologies:
 - Python
 - Apache Spark
