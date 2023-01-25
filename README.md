@@ -12,6 +12,7 @@ source: Udacity Data Lake Project Introduction
 - Apache Spark
 - Apache Parquet
 - Amazon S3
+- AWS EMR
 
 # Schema Design:
 The schema design being used is the STAR schema with 1 fact table: songplays and 4 dimension tables: artists, songs, users, and time.
