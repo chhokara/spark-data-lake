@@ -34,3 +34,5 @@ checks = [
   {'test_sql': ..., 'expected_result': ...},
   {'test_sql': ..., 'expected_result': ...}
 ]
+```
+ - Using a massively parallel database such as Redshift
