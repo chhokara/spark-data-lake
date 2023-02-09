@@ -35,4 +35,4 @@ checks = [
   {'test_sql': ..., 'expected_result': ...}
 ]
 ```
- - Using a massively parallel database such as Redshift
+ - Using a massively parallel database such as Redshift which holds data in a more structured form
