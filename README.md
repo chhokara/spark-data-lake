@@ -29,3 +29,8 @@ One of the main challenges I faced was deploying the Spark process to AWS. The l
 The data on user events can be processed in real-time using a technology such as Apache Kafka which is distributed, scaleable, and fault tolerant. This would also allow the analytics team to gain insights on their users in real-time.
 
 Including data quality checks to ensure that the data coming from the S3 buckets is vaild.
+```python
+checks = [
+  {'test_sql': ..., 'expected_result': ...},
+  {'test_sql': ..., 'expected_result': ...}
+]
